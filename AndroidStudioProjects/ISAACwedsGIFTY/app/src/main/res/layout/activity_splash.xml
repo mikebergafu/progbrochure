@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_splash"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wed_03"
+    tools:context="com.bitlogictechnologies.isaacwedsgifty.SplashActivity">
+
+
+<LinearLayout
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/coup_ring"
+        android:foregroundGravity="top"
+        />
+<Styling.CurlyFont
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/bride_name"
+    android:textSize="60sp"
+    android:textAlignment="center"
+    android:textColor="@color/colorEllaCyan"
+    />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Styling.BoldStyledFont
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/join_text"
+            android:textSize="30sp"
+            android:textAlignment="center"
+            android:textColor="@color/colorEllaCyan"
+            />
+    </LinearLayout>
+
+
+    <Styling.CurlyFont
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/groom_name"
+        android:textSize="60sp"
+        android:textAlignment="center"
+        android:textColor="@color/colorEllaCyan"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/date_of_wedding"
+        android:textSize="20sp"
+
+        android:textColor="@color/colorEllaPure"
+        />
+
+</LinearLayout>
+
+</RelativeLayout>

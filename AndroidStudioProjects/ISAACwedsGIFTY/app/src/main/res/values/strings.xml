@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Isaac weds Gifty</string>
+    <string name="bride_name">ISAAC</string>
+    <string name="groom_name">GIFTY</string>
+    <string name="join_text">weds</string>
+    <string name="date_of_wedding">\n\n\n Saturday,  15-April-2017</string>
+    <string name="part_1">Part One</string>
+    <string name="part_2">Part Two</string>
+    <string name="part_3">Part Three</string>
+    <string name="function_text">Functionaries</string>
+    <string name="copyright_text" translatable="false">Bitlogic™ Technologies || +233 204038261</string>
+    <string name="title_text">Solemnization of Holy Matrimony</string>
+
+    <string name="part1_text">Part One</string>
+    <string name="txt_donate">Please You Can Help Improve this App by Commenting Via WhatsApp to:</string>
+    <string name="donate_no" translatable="false">+233 246 102 372</string>
+    <string name="tanx_msg">God Bless You</string>
+
+    <string name="txt_visit">Visit Us at</string>
+
+    <string name="about_text" translatable="false">This App is Developed by: \n Mike-berg Sitsofe Afu</string>
+    <string name="amsk_logo_desc" translatable="false">amsk logo</string>
+    <string name="amsk_face_desc" translatable="false">amskfacebook</string>
+    <string name="about_title">About The Developer</string>
+    <string name="txtCopyright_sym" translatable="false">copyright©2017 (Version 1.0.2)</string>
+
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorEllaCyan">#dbade4</color>
+    <color name="colorEllaWhite">#ffffff</color>
+    <color name="colorEllaPure">#ecf1ee</color>
+    <color name="colorBit">#9ebdf7</color>
+    <color name="bitRay">#5c0627</color>
+    <color name="colorAmskBlue">#0fc9f2</color>
+    <color name="colorAmskOrange">#f2750f</color>
+    <color name="colorAmskWhite">#ffffff</color>
+    <color name="colorAmskBlack">#000000</color>
+    <color name="colorAmskGold">#998243</color>
+</resources>

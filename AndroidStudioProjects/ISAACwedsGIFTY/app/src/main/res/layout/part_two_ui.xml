@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/header_with_shadow"
+        android:orientation="horizontal"
+        android:layout_alignParentTop="true"
+
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Styling.BoldCurlFont
+                android:id="@+id/lbAbout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="@string/part_2"
+                android:textColor="@color/colorAmskGold"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_about"
+                android:layout_alignParentRight="true"
+                android:id="@+id/imageView"
+                android:layout_alignRight="@id/lbAbout" />
+
+        </LinearLayout>
+
+
+
+
+    </RelativeLayout>
+
+
+    <!-- Footer aligned to bottom -->
+
+    <RelativeLayout
+        android:id="@+id/footer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorAmskBlue"
+        android:gravity="center" >
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="@string/copyright_text"
+            android:textColor="@color/bitRay"
+            android:textSize="12sp" />
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/main_cont"
+        android:layout_below="@+id/header"
+        android:layout_above="@id/footer"
+        android:background="@drawable/coup_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ExpandableListView
+            android:id="@+id/expWordMeaning"
+            android:layout_width="match_parent"
+            android:divider="@drawable/amsk_divider"
+            android:dividerHeight="5dp"
+
+            android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

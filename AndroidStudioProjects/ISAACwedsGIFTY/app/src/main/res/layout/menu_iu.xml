@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:id="@+id/main_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/coup_back"
+
+    >
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/header_with_shadow"
+        android:orientation="horizontal"
+        android:layout_alignParentTop="true"
+
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Styling.BoldCurlFont
+                android:id="@+id/lbAbout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="@string/title_text"
+                android:textColor="@color/colorAmskGold"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            >
+
+            <ImageView
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_about"
+                android:layout_alignParentRight="true"
+                android:id="@+id/imageView"
+                android:layout_alignRight="@id/lbAbout" />
+
+        </LinearLayout>
+
+
+
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:id="@+id/imgHolder1"
+        android:layout_above="@+id/footer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/coup_ring"
+            />
+    </LinearLayout>
+
+
+    <!-- Footer aligned to bottom -->
+
+    <RelativeLayout
+        android:id="@+id/footer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorAmskBlue"
+        android:gravity="center" >
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="@string/copyright_text"
+            android:textColor="@color/bitRay"
+            android:textSize="12sp" />
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:id="@+id/downCont"
+        android:layout_above="@id/imgHolder1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+
+        >
+
+
+
+        <Styling.BoldCurlFont
+            android:id="@+id/btnPart3"
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:text="@string/part_3"
+            android:textSize="25sp"
+            android:background="@drawable/rounded_border"
+            android:textColor="@color/colorEllaCyan"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            />
+
+
+        <Styling.BoldCurlFont
+            android:id="@+id/btnFunction"
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:text="@string/function_text"
+            android:textSize="20sp"
+            android:background="@drawable/rounded_border"
+            android:textColor="@color/colorEllaCyan"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/topCont"
+        android:layout_above="@id/downCont"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+
+        <Styling.BoldCurlFont
+            android:id="@+id/btnPart1"
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:text="@string/part_1"
+            android:textSize="25sp"
+            android:background="@drawable/rounded_border"
+            android:textColor="@color/colorEllaCyan"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_margin="10dp"
+            />
+
+
+        <Styling.BoldCurlFont
+            android:id="@+id/btnPart2"
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:text="@string/part_2"
+            android:textSize="25sp"
+            android:background="@drawable/rounded_border"
+            android:textColor="@color/colorEllaCyan"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            />
+    </LinearLayout>
+
+
+
+
+
+
+</RelativeLayout>
